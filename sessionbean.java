@@ -22,7 +22,7 @@ public class SimpleWordCounter {
                     wordCount.put(word, wordCount.get(word) + 1);
             }
             
-            // show results(Thaveena)
+            // show results(Thaveena's Automation)
             for(String word : wordCount.keySet())
                 System.out.println(word + " " + wordCount.get(word));
             System.out.println(wordCount.size());
